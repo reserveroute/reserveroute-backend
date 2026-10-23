@@ -1,0 +1,451 @@
+{
+  "kind": "reserveroute-public-testnet-pilot",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "horizonUrl": "https://horizon-testnet.stellar.org",
+  "accounts": {
+    "oldSponsor": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+    "newSponsor": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+    "beneficiary": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR"
+  },
+  "transactions": [
+    {
+      "label": "setup",
+      "hash": "1f594ecdbe5bea512dcda1f0c5a63199a685a446f7f94a0d50476148f4b09bcd",
+      "status": "SUCCESS",
+      "ledger": 5347884,
+      "envelopeXdr": "AAAAAgAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAZAAUZoqAAAAAQAAAAEAAAAAAAAAAAAAAABq22TyAAAAAAAAAAQAAAABAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAEAAAAAAHOG08rGa/z4A9ZOmvGKFezIt7PNZZ2Owp9+cVtSlzyAAAAAEAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAAAAAAAAAc4bTysZr/PgD1k6a8YoV7Mi3s81lnY7Cn35xW1KXPIAAAAAAAAAAAAAAABAAAAAAc4bTysZr/PgD1k6a8YoV7Mi3s81lnY7Cn35xW1KXPIAAAABgAAAAJSVEVTVAAAAAAAAAAAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAACVAvkAAAAAAEAAAAABzhtPKxmv8+APWTprxihXsyLezzWWdjsKffnFbUpc8gAAAARAAAAAAAAAAKU8eJrAAAAQPJ8KOtBhD1XR40HOMDreNeGDGgixS2w/Xncb0MtaN0AJviZenH55AoND37Hi/zlFS7ANiGGr1L35uH1qQD7TQu1KXPIAAAAQJN0/ZLsQNnqgKMFaMDOSzSOIW6dIfySvHWuMWiGkRHFNMJqh7vHrhrRRS05Uz4MpPOSfrDhwLioitL+CZx4/go=",
+      "resultXdr": "AAAAAAAAAZAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAARAAAAAAAAAAA=",
+      "resultMetaXdr": "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",
+      "decodedResult": {
+        "fee_charged": "400",
+        "result": {
+          "tx_success": [
+            {
+              "op_inner": {
+                "begin_sponsoring_future_reserves": "success"
+              }
+            },
+            {
+              "op_inner": {
+                "create_account": "success"
+              }
+            },
+            {
+              "op_inner": {
+                "change_trust": "success"
+              }
+            },
+            {
+              "op_inner": {
+                "end_sponsoring_future_reserves": "success"
+              }
+            }
+          ]
+        },
+        "ext": "v0"
+      }
+    },
+    {
+      "label": "blocked-removal",
+      "hash": "c0ddc7914aed7618797c10e5627e8b6416ee8214ffb13ec3d35a91197499975a",
+      "status": "FAILED",
+      "ledger": 5347886,
+      "envelopeXdr": "AAAAAgAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAGQAUZoqAAAAAgAAAAEAAAAAAAAAAAAAAABq22T7AAAAAAAAAAEAAAABAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAEgAAAAAAAAABAAAAAAc4bTysZr/PgD1k6a8YoV7Mi3s81lnY7Cn35xW1KXPIAAAAAlJURVNUAAAAAAAAAAAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAAAAAAABlPHiawAAAEChbPGhyHsGMePb0oCH/H1Bg7AP/19+VYqmk2tai2DJaB5h/UjeAnc8MTHyLAZuTMfJ29ReasB+jMgMAqN2gh4D",
+      "resultXdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAS/////QAAAAA=",
+      "resultMetaXdr": "AAAABAAAAAAAAAACAAAAAwBRmi4AAAAAAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAF0h25gwAUZoqAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAMAAAAAAFGaLAAAAABq22R/AAAAAAAAAAEAUZouAAAAAAAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAABdIduYMAFGaKgAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAwAAAAAAAAADAAAAAABRmi4AAAAAattkiQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAB15KLcsJwPM/q9+uf9O9NUEpVqLl5/JtFDqLIQrTRzmEAAAABAAAAAAAAAAIAAAAPAAAAA2ZlZQAAAAASAAAAAAAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAAoAAAAAAAAAAAAAAAAAAABkAAAAAA==",
+      "decodedResult": {
+        "fee_charged": "100",
+        "result": {
+          "tx_failed": [
+            {
+              "op_inner": {
+                "revoke_sponsorship": "low_reserve"
+              }
+            }
+          ]
+        },
+        "ext": "v0"
+      }
+    },
+    {
+      "label": "transfer",
+      "hash": "c56edde072c1cf12d1624c9173cd5828d9bb61cbe3b2f4642e51d2f3afcdb9b1",
+      "status": "SUCCESS",
+      "ledger": 5347891,
+      "envelopeXdr": "AAAAAgAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAASwAUZoqAAAAAwAAAAEAAAAAAAAAAAAAAABq22UWAAAAAAAAAAMAAAABAAAAAKyp7ZZviHzbsey+t0GkAHLLu2QV66p0xiO0kQNyC2fcAAAAEAAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAAEAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAASAAAAAAAAAAEAAAAABzhtPKxmv8+APWTprxihXsyLezzWWdjsKffnFbUpc8gAAAACUlRFU1QAAAAAAAAAAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAAQAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAABEAAAAAAAAAApTx4msAAABAs2BZI3PJL388wO8qDZXEcZ6m7Sxh2E3NL6N+UO8AWhmAZUSYKMMz6Ew1Chr2kxJigXtvAUkTAR7roDxqFVACD3ILZ9wAAABA7mezhhygKcKkSQf2VPHRBkc60+WQn5ahgkFoF+4R/iXWnvSTdn7C8uHqcTN4zEFc2UHBkXRrLc4QT3n5cFixCA==",
+      "resultXdr": "AAAAAAAAASwAAAAAAAAAAwAAAAAAAAAQAAAAAAAAAAAAAAASAAAAAAAAAAAAAAARAAAAAAAAAAA=",
+      "resultMetaXdr": "AAAABAAAAAAAAAACAAAAAwBRmjMAAAAAAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAF0h25OAAUZoqAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAMAAAAAAFGaLgAAAABq22SJAAAAAAAAAAEAUZozAAAAAAAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAABdIduTgAFGaKgAAAAMAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAwAAAAAAAAADAAAAAABRmjMAAAAAattkogAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAADAFGaMwAAAAAAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAAXSHbk4ABRmioAAAADAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAwAAAAAAUZozAAAAAGrbZKIAAAAAAAAAAQBRmjMAAAAAAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAF0h25OAAUZoqAAAAAwAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAMAAAAAAFGaMwAAAABq22SiAAAAAAAAAAMAUZorAAAAAAAAAACsqe2Wb4h827HsvrdBpAByy7tkFeuqdMYjtJEDcgtn3AAAABdIdugAAFGaKwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAUZozAAAAAAAAAACsqe2Wb4h827HsvrdBpAByy7tkFeuqdMYjtJEDcgtn3AAAABdIdugAAFGaKwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAMAUZosAAAAAQAAAAAHOG08rGa/z4A9ZOmvGKFezIt7PNZZ2Owp9+cVtSlzyAAAAAJSVEVTVAAAAAAAAAAAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAAAAAAAAAAAAAJUC+QAAAAAAQAAAAAAAAABAAAAAQAAAACR7A5XEgSKEWRgqrHPtIofpQ9wvzHqexO7lWozlPHiawAAAAAAAAABAFGaMwAAAAEAAAAABzhtPKxmv8+APWTprxihXsyLezzWWdjsKffnFbUpc8gAAAACUlRFU1QAAAAAAAAAAAAAAJHsDlcSBIoRZGCqsc+0ih+lD3C/Mep7E7uVajOU8eJrAAAAAAAAAAAAAAACVAvkAAAAAAEAAAAAAAAAAQAAAAEAAAAArKntlm+IfNux7L63QaQAcsu7ZBXrqnTGI7SRA3ILZ9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAdeSi3LCcDzP6vfrn/TvTVBKVai5efybRQ6iyEK00c5hAAAAAQAAAAAAAAACAAAADwAAAANmZWUAAAAAEgAAAAAAAAAAkewOVxIEihFkYKqxz7SKH6UPcL8x6nsTu5VqM5Tx4msAAAAKAAAAAAAAAAAAAAAAAAABLAAAAAA=",
+      "decodedResult": {
+        "fee_charged": "300",
+        "result": {
+          "tx_success": [
+            {
+              "op_inner": {
+                "begin_sponsoring_future_reserves": "success"
+              }
+            },
+            {
+              "op_inner": {
+                "revoke_sponsorship": "success"
+              }
+            },
+            {
+              "op_inner": {
+                "end_sponsoring_future_reserves": "success"
+              }
+            }
+          ]
+        },
+        "ext": "v0"
+      }
+    }
+  ],
+  "before": {
+    "schemaVersion": 1,
+    "networkPassphrase": "Test SDF Network ; September 2015",
+    "baseReserveStroops": "5000000",
+    "baseFeeStroops": "100",
+    "accounts": [
+      {
+        "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "balanceStroops": "99999999600",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968978292867073",
+        "subentries": 0,
+        "sponsoring": 3,
+        "sponsored": 0
+      },
+      {
+        "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "balanceStroops": "100000000000",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968982587834368",
+        "subentries": 0,
+        "sponsoring": 0,
+        "sponsored": 0
+      },
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "balanceStroops": "0",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968986882801664",
+        "subentries": 1,
+        "sponsoring": 0,
+        "sponsored": 3
+      }
+    ],
+    "entries": [
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "type": "credit-trustline",
+        "owner": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "sponsor": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "asset": {
+          "code": "RTEST",
+          "issuer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+        }
+      }
+    ],
+    "provenance": {
+      "source": "https://horizon-testnet.stellar.org",
+      "capturedAt": "2026-10-23T13:43:31.631Z",
+      "startLedger": 5347884,
+      "endLedger": 5347884,
+      "scope": "Sponsored credit trustlines whose owner and sponsor are both in the explicit account set; not a full ledger inventory",
+      "atomic": false
+    }
+  },
+  "entryId": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+  "removalPlan": {
+    "schemaVersion": 1,
+    "kind": "reserveroute-plan",
+    "snapshotFingerprint": "3159331b8d86f771ce21acca6f75964bd897323fea0809f484eb7b97cf0907b1",
+    "status": "blocked",
+    "steps": [
+      {
+        "entryId": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "kind": "remove",
+        "entry": {
+          "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+          "type": "credit-trustline",
+          "owner": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+          "sponsor": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+          "asset": {
+            "code": "RTEST",
+            "issuer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+          }
+        },
+        "newSponsor": null,
+        "feePayer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "requiredAuthorizingAccounts": [
+          "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+        ],
+        "operationCount": 1,
+        "minimumFeeStroops": "100",
+        "status": "blocked",
+        "reasons": [
+          "beneficiary-low-reserve"
+        ],
+        "before": [
+          {
+            "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+            "minimumStroops": "25000000",
+            "availableStroops": "99974999600"
+          },
+          {
+            "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+            "minimumStroops": "0",
+            "availableStroops": "0"
+          }
+        ],
+        "after": null
+      }
+    ],
+    "projectedAccounts": [
+      {
+        "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "balanceStroops": "99999999600",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968978292867073",
+        "subentries": 0,
+        "sponsoring": 3,
+        "sponsored": 0
+      },
+      {
+        "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "balanceStroops": "100000000000",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968982587834368",
+        "subentries": 0,
+        "sponsoring": 0,
+        "sponsored": 0
+      },
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "balanceStroops": "0",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968986882801664",
+        "subentries": 1,
+        "sponsoring": 0,
+        "sponsored": 3
+      }
+    ],
+    "notice": "Credit-trustline reserve feasibility only. Required authorizing accounts are not resolved multisig keys. No signature, network submission, full inventory or guarantee of inclusion. Fees are base-fee estimates, not bids."
+  },
+  "preTransfer": {
+    "schemaVersion": 1,
+    "networkPassphrase": "Test SDF Network ; September 2015",
+    "baseReserveStroops": "5000000",
+    "baseFeeStroops": "100",
+    "accounts": [
+      {
+        "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "balanceStroops": "99999999500",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968978292867074",
+        "subentries": 0,
+        "sponsoring": 3,
+        "sponsored": 0
+      },
+      {
+        "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "balanceStroops": "100000000000",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968982587834368",
+        "subentries": 0,
+        "sponsoring": 0,
+        "sponsored": 0
+      },
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "balanceStroops": "0",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968986882801664",
+        "subentries": 1,
+        "sponsoring": 0,
+        "sponsored": 3
+      }
+    ],
+    "entries": [
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "type": "credit-trustline",
+        "owner": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "sponsor": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "asset": {
+          "code": "RTEST",
+          "issuer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+        }
+      }
+    ],
+    "provenance": {
+      "source": "https://horizon-testnet.stellar.org",
+      "capturedAt": "2026-10-23T13:43:58.881Z",
+      "startLedger": 5347890,
+      "endLedger": 5347890,
+      "scope": "Sponsored credit trustlines whose owner and sponsor are both in the explicit account set; not a full ledger inventory",
+      "atomic": false
+    }
+  },
+  "transferActions": [
+    {
+      "kind": "transfer",
+      "entryId": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+      "newSponsor": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL"
+    }
+  ],
+  "transferPlan": {
+    "schemaVersion": 1,
+    "kind": "reserveroute-plan",
+    "snapshotFingerprint": "9e6cbd8a3d5d855fe05aa34423e4f3d526b1ab87e70c215f21b8df2c616976ac",
+    "status": "ready",
+    "steps": [
+      {
+        "entryId": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "kind": "transfer",
+        "entry": {
+          "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+          "type": "credit-trustline",
+          "owner": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+          "sponsor": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+          "asset": {
+            "code": "RTEST",
+            "issuer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+          }
+        },
+        "newSponsor": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "feePayer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "requiredAuthorizingAccounts": [
+          "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+          "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL"
+        ],
+        "operationCount": 3,
+        "minimumFeeStroops": "300",
+        "status": "ready",
+        "reasons": [],
+        "before": [
+          {
+            "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+            "minimumStroops": "25000000",
+            "availableStroops": "99974999500"
+          },
+          {
+            "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+            "minimumStroops": "10000000",
+            "availableStroops": "99990000000"
+          },
+          {
+            "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+            "minimumStroops": "0",
+            "availableStroops": "0"
+          }
+        ],
+        "after": [
+          {
+            "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+            "minimumStroops": "20000000",
+            "availableStroops": "99979999200"
+          },
+          {
+            "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+            "minimumStroops": "15000000",
+            "availableStroops": "99985000000"
+          },
+          {
+            "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+            "minimumStroops": "0",
+            "availableStroops": "0"
+          }
+        ]
+      }
+    ],
+    "projectedAccounts": [
+      {
+        "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "balanceStroops": "99999999200",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968978292867074",
+        "subentries": 0,
+        "sponsoring": 2,
+        "sponsored": 0
+      },
+      {
+        "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "balanceStroops": "100000000000",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968982587834368",
+        "subentries": 0,
+        "sponsoring": 1,
+        "sponsored": 0
+      },
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "balanceStroops": "0",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968986882801664",
+        "subentries": 1,
+        "sponsoring": 0,
+        "sponsored": 3
+      }
+    ],
+    "notice": "Credit-trustline reserve feasibility only. Required authorizing accounts are not resolved multisig keys. No signature, network submission, full inventory or guarantee of inclusion. Fees are base-fee estimates, not bids."
+  },
+  "after": {
+    "schemaVersion": 1,
+    "networkPassphrase": "Test SDF Network ; September 2015",
+    "baseReserveStroops": "5000000",
+    "baseFeeStroops": "100",
+    "accounts": [
+      {
+        "id": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "balanceStroops": "99999999200",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968978292867075",
+        "subentries": 0,
+        "sponsoring": 2,
+        "sponsored": 0
+      },
+      {
+        "id": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "balanceStroops": "100000000000",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968982587834368",
+        "subentries": 0,
+        "sponsoring": 1,
+        "sponsored": 0
+      },
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "balanceStroops": "0",
+        "sellingLiabilitiesStroops": "0",
+        "sequence": "22968986882801664",
+        "subentries": 1,
+        "sponsoring": 0,
+        "sponsored": 3
+      }
+    ],
+    "entries": [
+      {
+        "id": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR:RTEST:GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2",
+        "type": "credit-trustline",
+        "owner": "GADTQ3J4VRTL7T4AHVSOTLYYUFPMZC33HTLFTWHMFH36OFNVFFZ4QQKR",
+        "sponsor": "GCWKT3MWN6EHZW5R5S7LOQNEABZMXO3ECXV2U5GGEO2JCA3SBNT5Z6NL",
+        "asset": {
+          "code": "RTEST",
+          "issuer": "GCI6YDSXCICIUELEMCVLDT5URIP2KD3QX4Y6U6YTXOKWUM4U6HRGWXM2"
+        }
+      }
+    ],
+    "provenance": {
+      "source": "https://horizon-testnet.stellar.org",
+      "capturedAt": "2026-10-23T13:44:06.691Z",
+      "startLedger": 5347891,
+      "endLedger": 5347891,
+      "scope": "Sponsored credit trustlines whose owner and sponsor are both in the explicit account set; not a full ledger inventory",
+      "atomic": false
+    }
+  },
+  "checkedAt": "2026-10-23T13:44:06.691Z",
+  "notice": "Fresh faucet-funded testnet accounts only. One expected failed removal and a confirmed sponsorship transfer. RTEST has zero balance; no customer assets or mainnet funds. Horizon snapshots span explicit ledger bounds and are not atomic or independent consensus proofs."
+}
