@@ -1,0 +1,25 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: reserveroute-backend
+      - uses: actions/checkout@v4
+        with:
+          repository: reserveroute/reserveroute-engine
+          ref: main
+          path: reserveroute-engine
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm ci
+        working-directory: reserveroute-backend
+      - run: npm test
+        working-directory: reserveroute-backend
+      - run: node replay-testnet.mjs
+        working-directory: reserveroute-backend
